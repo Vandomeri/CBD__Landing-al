@@ -325,6 +325,10 @@ h6 {
     }
 }
 
+main {
+    overflow: hidden;
+}
+
 /* Offer */
 
 .offer {
@@ -343,6 +347,8 @@ h6 {
     align-items: center;
 
     flex-wrap: wrap;
+
+    overflow: hidden;
 
     img {
         width: 500px;
@@ -365,6 +371,8 @@ h6 {
         font-size: 24px;
         color: #2f323f;
         line-height: 1.2;
+
+        overflow: hidden;
 
         @media only screen and (max-width: 800px) {
             padding: 0 10px;
@@ -694,8 +702,4 @@ h6 {
         width: 30px;
         margin: 5px 5px 0 5px;
     }
-}
-
-[data-aos^="fade"][data-aos^="fade"].aos-animate {
-    overflow-x: hidden;
 }
