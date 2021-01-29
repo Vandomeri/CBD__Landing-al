@@ -774,3 +774,7 @@ h6 {
   width: 30px;
   margin: 5px 5px 0 5px;
 }
+
+[data-aos^="fade"][data-aos^="fade"].aos-animate {
+  overflow-x: hidden;
+}
